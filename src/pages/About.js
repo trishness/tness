@@ -5,7 +5,11 @@ import "./style.css"
 import trishboat from "../components/Carousel/trishboat.jpg";
 import trish1 from "../components/Carousel/trish1.jpg";
 import trish3 from "../components/Carousel/trish3.jpg";
+import kite from "../components/Carousel/kite.jpg";
+import maple from "../components/Carousel/maple.jpg";
+import sky from "../components/Carousel/sky.jpg";
 import "./About.css"
+import { Carousel } from "react-bootstrap"
 
 const About = () => {
   return (
@@ -17,11 +21,57 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="row images">
+      <div className="bg carouselPad">
+      <Carousel className="carousel">
+  <Carousel.Item>
+    <img
+      className="d-block w-100 rounded"
+      src={trish1}
+      alt="Whoops!"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100 rounded"
+      src={trishboat}
+      alt="Whoops!"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100 rounded"
+      src={trish3}
+      alt="Whoops!"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100 rounded"
+      src={maple}
+      alt="Whoops!"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100 rounded"
+      src={sky}
+      alt="Whoops!"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100 rounded"
+      src={kite}
+      alt="Whoops!"
+    />
+  </Carousel.Item>
+</Carousel>
+      </div>
+      {/* <div className="row images">
       <img className="img rounded" src={trishboat} alt="whoops" />
       <img className="img rounded" src={trish1} alt="whoops" />
       <img className="img rounded" src={trish3} alt="whoops" />
-      </div>
+      </div> */}
       <div className=" background rounded about">
 
         <div className="row">

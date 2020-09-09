@@ -23,3 +23,12 @@
     display:flex;
     justify-content:center;
 }
+
+.carousel {
+    width:600px;
+    height:600px;
+}
+
+.carouselPad {
+    padding-bottom:2rem;
+}

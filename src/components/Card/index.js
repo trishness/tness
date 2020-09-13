@@ -23,9 +23,12 @@ function Projects() {
       </div>
       <div className="content">
         <h4><strong>Pawsitivity</strong></h4>
+          <p>Full Stack Developer, Project Manager</p>
           <p>
           An application to swipe through real-time adoptable pets based on your location, preferences and environment. Sign up as a shelter to list adoptable pets and get in contact with potential adopters.
           </p>
+          <p>Created with ReactJS, HTML5, CSS3, MySql, Node, APIs, Antd</p>
+          <p>Won "Best Presentation"</p>
           <div className="cardBtn">
           <a href="https://pawsitivity-atack.herokuapp.com" class="btn btn-primary">Deployed Site</a>
           <a href="https://github.com/arielbs1991/pawsitivity-front-end" class="btn btn-primary">GitHub</a>
@@ -43,9 +46,12 @@ function Projects() {
       </div>
       <div className="content">
         <h4><strong>Wine Key</strong></h4>
+          <p>Front End Developer, Project Manager</p>
           <p>
-              Built for Fire&Vine Hospitality, a site designed for managers to input wine inventory for specific locations in order to easily manage and trade stock within the company.
+              Built for Fire&Vine Hospitality, a site for managers to input wine inventory for specific locations in order to easily manage and trade stock within the company.
           </p>
+          <p>Created with HTML5, CSS3, JavaScript, Express, Node, MySql, Foundation, jQuery, Handlebars.js</p>
+          <p>Won "Best Presentation"</p>
           <div className="cardBtn">
           <a href="https://fv-winekey.herokuapp.com" class="btn btn-primary">Deployed Site</a>
           <a href="https://github.com/arielbs1991/Wine-Key" class="btn btn-primary">GitHub</a>
@@ -63,9 +69,12 @@ function Projects() {
       </div>
       <div className="content">
       <h4><strong>WANDER</strong></h4>
+          <p>Sole Front End Developer, Project Manager</p>
           <p>
             A project that helps a PNW user find a randomized hike for a new outdoor adventure, complete with hike information, Google Maps and pertinent weather conditions.
           </p>
+          <p>Created with HTML5, CSS3, JavaScript, jQuery, Axios, APIs, Materialize</p>
+          <p>Won "Best Presentation"</p>
           <div className="cardBtn">
           <a href="https://codysamuels.github.io/wander/" className="btn btn-primary">Deployed Site</a>
           <a href="https://github.com/CodySamuels/wander" className="btn btn-primary">GitHub</a>
@@ -87,6 +96,7 @@ function Projects() {
       </div>
       <div className="content">
       <h4><strong>Employee Directory</strong></h4>
+          <p>Full Stack Developer</p>
           <p>
             My first project with React, a sample site that displays a company's employee directory. Additional features were included that show sorting and filtering functionality.
           </p>
@@ -107,6 +117,7 @@ function Projects() {
       </div>
       <div className="content">
       <h4><strong>Budget Tracker</strong></h4>
+          <p>Full Stack Developer</p>
           <p>
             A server enabled application that assists a user in tracking their budget. Additional offline/WPA functionality increases the user experience and accessibility.
           </p>
@@ -127,6 +138,7 @@ function Projects() {
       </div>
       <div className="content">
       <h4><strong>Note Taker</strong></h4>
+          <p>Full Stack Developer</p>
           <p>
             One of my first experiences with express servers, this is a site that enables a user to create, edit, delete, and store personal notes and to-do lists for current and future use.
           </p>
